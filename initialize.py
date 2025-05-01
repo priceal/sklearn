@@ -26,6 +26,12 @@ except NameError:
     from sklearn import linear_model
 
 try:
+    train_test_split
+except NameError:
+    print(' importing train_test_split from sklearn.model_selection.')
+    from sklearn.model_selection import train_test_split
+    
+try:
     g
 except NameError:
     print(' importing gauss as g.')

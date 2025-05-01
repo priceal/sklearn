@@ -1,7 +1,7 @@
 # this script will display an array of frames
 
 # set frames to display
-displayframes_frames = frames[0:400]      # make sure to use copy()
+displayframes_frames = frames     # make sure to use copy()
                      
 ## use below to overide parameter values from common.py
 ######################################################################         
